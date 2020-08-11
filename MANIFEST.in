@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include organization_app *.css
+recursive-include organization_app *.csv
+recursive-include organization_app *.html
+recursive-include organization_app *.ico
+recursive-include organization_app *.js
+recursive-include organization_app *.json
+recursive-include organization_app *.md
+recursive-include organization_app *.png
+recursive-include organization_app *.py
+recursive-include organization_app *.svg
+recursive-include organization_app *.txt
+recursive-exclude organization_app *.pyc
